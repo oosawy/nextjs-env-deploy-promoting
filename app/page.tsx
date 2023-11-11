@@ -1,3 +1,3 @@
 export default function Home() {
-  return <>Client: {process.env.NEXT_PUBLIC_VERCEL_ENV}</>
+  return <p>Client: {process.env.NEXT_PUBLIC_VERCEL_ENV}</p>
 }

@@ -15,9 +15,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full p-4">
       <body className={inter.className}>
-        RSC: {process.env.VERCEL_ENV}
+        <p>RSC: {process.env.VERCEL_ENV}</p>
         {children}
       </body>
     </html>
